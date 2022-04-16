@@ -25,11 +25,12 @@ import (
 
 // MemcachedSpec defines the desired state of Memcached
 type MemcachedSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-	// Important: Run "make" to regenerate code after modifying this file
+    // INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
+    // Important: Run "make" to regenerate code after modifying this file
 
-	// Foo is an example field of Memcached. Edit memcached_types.go to remove/update
-	Size int32 `json:"size"`}
+    // Foo is an example field of Memcached. Edit Memcached_types.go to remove/update
+    Size int32 `json:"size"`
+}
 
 // MemcachedStatus defines the observed state of Memcached
 type MemcachedStatus struct {

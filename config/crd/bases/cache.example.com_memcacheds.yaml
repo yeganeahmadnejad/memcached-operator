@@ -37,7 +37,7 @@ spec:
             description: MemcachedSpec defines the desired state of Memcached
             properties:
               size:
-                description: Foo is an example field of Memcached. Edit memcached_types.go
+                description: Foo is an example field of Memcached. Edit Memcached_types.go
                   to remove/update
                 format: int32
                 type: integer
